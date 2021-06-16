@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/Poppins-Regular.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #7E7E7E;
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: 500px;
+    background: #334A88;  
+}
+
+.title {
+    position: absolute;
+    width: 30%;
+    height: 20px;
+    margin-top: 12em;
+    margin-left: 8em;
+    z-index: 1;
+}
+
+.para {
+    color: #FFF;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background: #59B8DE;
+    color: #FFF;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.img {
+    width: inherit;
+    margin-top: 5em;
+}
+
+/* What is KiTT */
+.kitt {
+    height: 150px;
+}
+
+.kitt h2 {
+    margin-top: 3em;
+}
