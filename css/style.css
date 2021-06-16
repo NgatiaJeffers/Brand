@@ -38,7 +38,7 @@ body {
     font-size: 2rem;
 }
 
-.btn {
+.btn1 {
     width: 150px;
     height: 40px;
     background: #59B8DE;
@@ -47,6 +47,10 @@ body {
     margin-top: 15px;
     border-radius: 50px;
     border: none;
+}
+
+.btn-info:hover {
+    color: #FFF !important;
 }
 
 
@@ -95,3 +99,26 @@ body {
 .lim {
     margin-left: 5em;
 }
+
+.round {
+    margin-top: 6em;
+    margin-left: 5em;
+}
+
+.roundP {
+    margin-left: 5em;
+}
+
+.btn2 {
+    width: 150px;
+    height: 40px;
+    background: #59B8DE;
+    color: #FFF;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 5em;
+}
+
+
