@@ -213,11 +213,21 @@ footer a:hover {
     margin-left: 6em;
 }
 
+.can h6 {
+    color: #000;
+    margin-left: 6em;
+}
+
 .sec {
     max-height: 800px;
     background-color: #F7F7F7;
 }
 
 .gal {
-    
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.change img {
+    margin-top: 10em;
 }
