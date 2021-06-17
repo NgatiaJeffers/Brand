@@ -238,18 +238,14 @@ footer a:hover {
 
 /*=========================== ABOUT STYLE ========================= */
 .about {
-    height: 600px;
     background-color: #EAEAEA;
     margin: 0;
     padding: 0;
+    height: 600px;
 }
 
-.about-image {
-    max-height: 600px;
-    max-width: 100%;
-}
 
-.about .abt {
+.abt {
     margin-top: 8em;
     margin-left: 3em;
 }
@@ -265,6 +261,10 @@ footer a:hover {
     margin-top: 2em;
     margin-left: 4em;
     font-size: 12px;
+}
+
+.about-image {
+    float: right;
 }
 
 
