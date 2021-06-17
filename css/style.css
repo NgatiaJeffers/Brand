@@ -12,6 +12,10 @@ body, html {
     scroll-behavior: smooth;
 }
 
+p {
+    overflow: hidden;
+}
+
 .header-image {
     height: 550px;
     width: 100%; 
@@ -167,7 +171,7 @@ footer a:hover {
     text-decoration: none;
 }
 
-/* QUIZ CSS */
+/* =========================== QUIZ STYLE ================================ */
 .btn3 {
     width: 150px;
     height: 40px;
@@ -219,7 +223,7 @@ footer a:hover {
 }
 
 .sec {
-    max-height: 800px;
+    max-height: 900px;
     background-color: #F7F7F7;
 }
 
@@ -230,4 +234,48 @@ footer a:hover {
 
 .change img {
     margin-top: 10em;
+}
+
+/*=========================== ABOUT STYLE ========================= */
+.about {
+    height: 600px;
+    background-color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+}
+
+.about-image {
+    max-height: 600px;
+    max-width: 100%;
+}
+
+.about .abt {
+    margin-top: 8em;
+    margin-left: 3em;
+}
+
+.about-content h3 {
+    margin-left: 2.5em;
+    color: #000;
+    margin-top: 2em;
+    font-size: 18px;
+}
+
+.about-content p {
+    margin-top: 2em;
+    margin-left: 4em;
+    font-size: 12px;
+}
+
+
+.btn4 {
+    width: 150px;
+    height: 40px;
+    background: #59B8DE;
+    color: #FFF;
+    font-size: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 5em;
 }
